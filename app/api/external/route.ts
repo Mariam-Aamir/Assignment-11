@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const EXTERNAL_API_URL = "https://your-new-api-url.com/endpoint";
+const EXTERNAL_API_URL = "https://jsonplaceholder.typicode.com/posts";
 
 export async function GET() {
   try {
